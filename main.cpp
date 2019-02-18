@@ -10,8 +10,10 @@ typedef struct nodo2{
  struct nodo2 *ant, *prox;
 }Nodo2;
 
-//Escolhi apenas uma posi��o por causa da quantidade de
-//elementos que tinha no vetor
+//Escolhi apenas uma posição por causa da quantidade de
+//elementos que tinha no vetor, em todo caso, com três elementos
+//sempre será retornado um valor como resposta, mesmo que todos 
+//forem repetidos 
 Nodo vetAux[0];
 
 
